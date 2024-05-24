@@ -8,6 +8,8 @@ import Logiciels from "./Logiciels";
 import Home from "./Home_components";
 import SignUp from "./SignUp";
 import Login from "./Login";
+import Services from "./Services";
+
 
 export {
   Navbar,
@@ -17,7 +19,7 @@ export {
   Logiciels,
   Home,
   MainSection,
-  Footer,
+  Footer,Services,
   SignUp,
   Login
 };

@@ -3,6 +3,7 @@ import connect from '../assets/connect.gif';
 import efacturation from '../assets/efacturation.gif';
 import Smart from '../assets/Smart.gif';
 
+import { Link } from "react-router-dom";
 export default function Logiciels() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -17,7 +18,11 @@ export default function Logiciels() {
           <h2 className="text-2xl font-bold text-teal-600 dark:text-teal-400 mb-2">E-facturation</h2>
           <p className="text-zinc-700 dark:text-zinc-300 mb-4">Efacturation is a simple and useful online invoicing software that allows you to easily create, edit, and print all your documents: quotes, invoices. Our solution is suitable for both self-employed individuals...</p>
           <div className="flex space-x-4">
-            <button className="bg-teal-600 text-white px-4 py-2 rounded-lg">See More</button>
+          <Link to="/services" className="text-blue-500 hover:text-blue-700">
+      <button className="bg-teal-600 text-white px-4 py-2 rounded-lg">
+        See More
+      </button>
+    </Link>
             <button className="bg-green-600 text-white px-4 py-2 rounded-lg">Free Try</button>
           </div>
         </div>

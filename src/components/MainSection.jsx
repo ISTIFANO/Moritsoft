@@ -8,7 +8,7 @@ export default function MainSection() {
           Your browser does not support the video tag.
         </video>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white bg-black bg-opacity-50 p-4">
-          <h1 className="text-5xl font-bold">Smart Influencer</h1>
+          <h1 className="text-5xl font-bold">Moritsoft</h1>
           <p className="mt-4 text-xl">Smart up your business and join us in the future!</p>
           <p className="mt-6 max-w-2xl">
             Smart Influencer is a digital transformation agency based in Marrakech, specialized in the creation of websites, the development of management software, the development of personalized applications and SEO natural referencing.
